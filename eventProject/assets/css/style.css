@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw8PDw8PDw8PDw8PFQ8QDw8VDw8VFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRk3KysrKysrKystLSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBAUH/8QAGxABAQEBAQEBAQAAAAAAAAAAAAEREgLwgWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APxieWp5MjUioJGp5akakBmeTPLchwGOVy6YsBz5HLrgwHLkcuuDAcuWeXawWA48i+XaxnAcuWb5drBYDjyOXWwYDlyMdbBgOWDHTBgMYMbxYDngx0wYDGBvBiKyjiAJIEkge/zG5B5jcioZGpFI1ICkOGQ4Aw4cOAzgxvBgMYMbGAxgxuwYDFjNjoLAc7GbHSwYDnYMbwWA52Cx0sGA54LG8GAxYMbsFgMYMbsGAxgboBjBjeAGA3YMQZRAr6Xl0jHluKjcjUZjcAyFQwFhRAYMaQMWDGwDAsaoBjBjdgoMWM2N0AxYMbrNgM2M42KDAxuwYDFgsbZsBgVuwAxgxsYDAbxkGaLGhQYRQr6Pl0jn5bgjcajMagNwxmNQCQQSSAAigAQAFIAVloAyGqAZsZbFBiwNCgyGgDFFaAMhqgGQ0yKyK1RQYSwiPd5dI5xuA3GoxK1KDcaYh0G4WCDSCAihUEEAQQBUIAggCFQoAEABSKAZpFFFBFAAgBWa1WagyUgeyNRzlblVHSVqOcrUoOhlc5WtBvTrnp0HTVrGroGkzo0GtFGi0CBo0CNGjQIq0aBC1m0EFooIVAVUVCgggCCQBmkVAJIHolalc9aBvWpXOUyiOsp6cpWpQdNa1y06Dd9KVzOqN6tY1aDejWdANarWNWoNaNGjVGtA0Wg1otGgCBo1FIWjQSQBBaNBCnRQAqtGgKhSDtKWJWga0xkiNaYzDorWnWLSI1DrGmAdLOoDq0ICKgC1DUB0JAtCAJIUFo1CgdGpkUi1DQI0IEEKCSQOka1iNQGmmYgaWhINQ6wVGiwZQaQFAnWdIhCAEalAVCpAaDgoqFSAI0ABSAAKAA0AgQASQOkMZjUBqGMwg0ggaQUAyGBWgbUIgOq0IERRAOkIF9qWi0CNCBJDQVCQAG0UEkgANoBUJAEEDpGnOVqA0RFoNFjToNaZWdWg1pZ1AUFaBVrJA6tWjQK0aARCBalotBeoCAIWgCKkAqVoBAoAkgZSQNSnUgOrpIF0tKAdHpIF0eggPS6CA6uv4kCvpT0kCvpdJAul0EC6PX334EC0dJApVpQM6tSAatSBatSAatSAakgf/9k=');
+    background-size: cover;
+
+}
+
+.main {
+    cursor: url('./iamge/image-120x120.jpg'), auto;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dolku {
+
+
+    width: 100px;
+    height: 250px;
+    transform: translateX(200px) translateY(180px);
+    z-index: 636;
+}
+
+.dolku2 {
+
+    width: 100px;
+    height: 250px;
+    transform: translateX(170px) translateY(180px);
+    z-index: 363;
+}
+
+.dhomdhom {
+    width: 100px;
+    height: 250px;
+
+    z-index: 33;
+    transform: translateX(155px) translateY(50px);
+}
+
+#thali {
+
+    width: 100px;
+    height: 250px;
+    transform: translateX(-100px) translateY(-30px);
+    z-index: 33;
+}
+
+#thali2 {
+    width: 100px;
+    height: 250px;
+
+    z-index: 33;
+    transform: translateX(400px) translateY(-30px);
+}
+
+.bass {
+
+    width: 100px;
+    height: 250px;
+    transform: translateY(360px) translateX(-200px);
+    z-index: 999;
+
+}
+
+.stand1 {
+    width: 100px;
+    height: 350px;
+    transform: translateY(330px) translateX(-275px);
+}
+
+.stand2 {
+    width: 100px;
+    height: 300px;
+    transform: translateY(330px) translateX(-540px);
+}
+
+.stand3 {
+    width: 100px;
+    height: 250px;
+    transform: translateY(330px) translateX(-245px);
+
+}
+
+.stand4 {
+    width: 100px;
+    height: 250px;
+    transform: translateY(-30px) translateX(-1100px);
+
+}
+
+.stand5 {
+    width: 100px;
+    height: 250px;
+    transform: translateY(-30px) translateX(-500px);
+
+}
+
+.poster {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50px 0px;
+    box-shadow: 0px 0px 15px 5px rgb(158, 158, 158);
+    transition: all 0.5s ease;
+}
+
+.poster:hover {
+    transition: all 0.5s ease;
+    border-radius: 0px 70px;
+    box-shadow: 0px 0px 20px 15px rgb(158, 158, 158);
+}
